@@ -1,0 +1,8 @@
+---
+layout: page
+title: Page not Found
+---
+
+<h1 id="fittext">{{ page.title }}</h1>
+
+![404](/img/404.jpg)

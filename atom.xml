@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Padly Rahman</title>
+ <link href="http://padlyrahman.tk/atom.xml" rel="self"/>
+ <link href="http://padlyrahman.tk/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://padlyrahman.tk/</id>
+ <author>
+   <name>Padly Rahman</name>
+   <email>padly.rahman@gmail.com</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://padlyrahman.tk/{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://padlyrahman.tk/{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>

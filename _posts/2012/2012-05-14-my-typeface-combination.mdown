@@ -1,0 +1,11 @@
+---
+title: My Typeface Combination
+layout: blog
+---
+
+![Nixie One](/img/nixie.jpg)
+
+![FertigoPro](/img/fertigo.gif)
+
+[NixieOne](http://www.google.com/webfonts#UsePlace:use/Collection:Nixie+One) karya [Jovanny Lemonad](https://plus.google.com/115426726897976242009/about) dan [FertigoPro](http://www.myfonts.com/fonts/exljbris/fertigo-pro/)
+ karya [Jos Buivenga](http://exljbris.wordpress.com/), menjadi pilihanku untuk mempercantik tipograpi blog sederhana ini. Sedikit aneh, karena mayoritas penyuka tipograpi menyukai tipe huruf yang tebal untuk _heading_ dan huruf biasa buat paragraf, namun aku berbuat sebaliknya &mdash; _because... i want to be the minority_. __&#x3C0;__

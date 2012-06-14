@@ -1,0 +1,15 @@
+---
+title: Rebuilding...
+layout: blog
+style:
+---
+
+Yeah! Setelah akhir-akhir ini banyak menghabiskan waktu untuk mencoba berbagai macam mesin blog statis, kepala ini rasanya seperti mau pecah saja. Begitu banyak pengetahuan yang bisa aku petik dan sepertinya aku memerlukan tempat untuk mencurahkan segala yang ada di kepala ini dalam bentuk suatu tulisan.
+
+Oh Man! Dilematis memang! Disatu sisi aku sangat mencintai blogazine, disisi lain aku juga ingin sekali menulis sesuatu &mdash;dan aku harus berani untuk memulainya&mdash; tanpa harus berpusing ria untuk memikirkan desain.
+
+Dan setelah aku timbang-timbang, akhirnya aku memutuskan untuk merombak habis blogazineku dan juga mengorbankan postingan didalamnya. Aku ingin sekali mendapatkan sebuah theme minimalis seperti milik Jason Santa Maria yang bisa dibuat untuk sekedar menulis sesuatu yang ringan dan juga bisa untuk dikostum tapi dengan tidak meninggalkan kesan sebuah blog.
+
+![Aku akan merindukannya](/img/blogazine.jpg)
+
+Jadi buat teman-teman blogazine, jangan khawatir... __&#x3C0;__

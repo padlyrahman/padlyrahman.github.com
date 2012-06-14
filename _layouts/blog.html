@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="author" content="Padly Rahman" />
+  <meta name="generator" content="Jekyll" />
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <title>{{ site.name }}{% if page.title %}: {{ page.title }}{% endif %}</title>
+  <link href="http://feeds.feedburner.com/PadlyRahman" rel="alternate" title="RSS" type="application/atom+xml" /> 
+  <link rel="stylesheet" href="/css/screen.css" />
+ <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<section class="container">    
+<header>
+<h1><a href="/">The other side of {me...}</a></h1>
+</header>
+<article>    
+{% if page.is_index %}
+{% for post in paginator.posts %}
+{% include blog-post.html %}
+{% endfor %}
+<nav id="pagination">
+{% if paginator.previous_page %}
+{% if paginator.previous_page == 1 %}
+{% assign previous_link = '/' %}
+{% else %}
+{% capture previous_link %}../page{{ paginator.previous_page }}{% endcapture %}
+{% endif %}
+<a id="east" class="next" href="{{ previous_link }}" title="You can use &rarr; (right arrow) on keyboard to go to next page">&nbsp; &nbsp;Next &rarr;</a>
+{% else %}
+<span class="new">Next &rarr;</span>
+{% endif %}    
+{% if paginator.next_page %}
+<a id="west" class="previous" href="../page{{ paginator.next_page }}" title="You can use &larr; (left arrow) on keyboard to go to previous page">&larr; Previous&nbsp; &nbsp;</a>
+{% else %}
+<span class="old">&larr; Previous</span>
+{% endif %}
+</nav>
+{% else %}
+{% assign post = page %}
+{% assign single_post = true %}
+{% include blog-post.html %}
+{% endif %}
+</article>
+{% include footer.html %}
+</section>
+<script src="/js/min.js"></script>
+<script src="/js/padlyrahman.js"></script>
+<script src="/js/twittertrackback.js"></script>
+<script>
+$("article h1,article h2").fitText(1.4);$("#east").tipsy({gravity:"e"});$("#west,#westp").tipsy({gravity:"w"});$('div.my-trackbacks').twitterTrackbacks({url:"http://padlyrahman.tk{{ post.url }}/"});
+</script>
+</body>
+</html>

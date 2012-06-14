@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="author" content="Padly Rahman" />
+  <meta name="generator" content="Jekyll" />
+  <title>{{ site.name }}{% if page.title %}: {{ page.title }}{% endif %}</title>
+  <link rel="shortcut icon" href="/img/favicon.ico">
+  <link href="http://feeds.feedburner.com/PadlyRahman" rel="alternate" title="RSS" type="application/atom+xml" /> 
+  <link rel="stylesheet" href="/css/screen.css" />
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<section class="container">    
+<header>
+<h1><a href="/">The other side of {me...}</a></h1>
+</header>
+<article>    
+{{content}}
+</article>
+{% include footer.html %}
+</section>
+<script src="/js/min.js"></script>
+<script src="/js/padlyrahman.js"></script>
+<script>
+$("article h1,article h2").fitText(1.4);
+</script>
+</body>
+</html>

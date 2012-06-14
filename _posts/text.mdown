@@ -1,0 +1,68 @@
+---
+title: POST_TITLE
+layout: blog
+---
+
+![Nixie One](/img/nixie.jpg)
+
+![FertigoPro](/img/Fertigo.png)
+
+<iframe src="http://player.vimeo.com/video/2354261" width="500" height="282" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.  Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+
+> <cite>__&mdash; Padly Rahman__</cite>
+
+1.  Margin dan Padding
+
+    Jujur... aku senang dengan maraknya narablog yang tertarik menggunakan konsep blogazine, namun di sisi lain, aku memperhatikan ada di antara narablog yang salah dalam memahami konsep ini. Blogazine bukan terbatas merubah tampilan satu post dengan post lainnya, untuk membuatnya indah, kita juga harus memperhatikan beberapa hal, diantaranya;
+
+2.  Background
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.  Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse id sem consectetuer libero luctus adipiscing.
+
+{% highlight html %}
+<div id="container">
+  <div class="item">...</div>
+  <div class="item">...</div>
+  <div class="item">...</div>
+  ...
+</div>
+{% endhighlight %}
+
+Add jQuery and the Masonry script. Masonry requires jQuery v1.4.0 and greater.
+
+{% highlight html %}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="/path/to/jquery.masonry.min.js"></script>
+{% endhighlight %}
+
+### CSS
+
+All sizing of items is handled by your CSS. Items should be floated.
+
+{% highlight css %}
+.item {
+  width: 220px;
+  margin: 10px;
+  float: left;
+}
+{% endhighlight %}
+
+### Script
+
+It is recommended you specify an `itemSelector` and `columnWidth`. There are a number of other [options](options.html) you can specify.
+
+{% highlight javascript %}
+$(function(){
+  $('#container').masonry({
+    // options
+    itemSelector : '.item',
+    columnWidth : 240
+  });
+});
+{% endhighlight %}
+
+
+
+__&#x3C0;__

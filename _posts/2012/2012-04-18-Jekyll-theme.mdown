@@ -1,0 +1,15 @@
+---
+title: Jekyll Theme Framework
+layout: blog
+style:
+---
+
+Semakin lama, bermain di blog statis semakin mengasyikkan saja rasanya. Kita sangat dimanjakan dengan berbagai macam plugins generator... dan kini, kita bahkan tidak perlu lagi membangun theme dari nol karena ada framework yang siap install.
+
+![Jekyll Bootstrap](/img/Jekyll-Bootstrap.png)
+
+[JB &mdash;Jekyll Bootstrap&mdash;](http://jekyllbootstrap.com/) memberikan semua kemudahan tersebut. Ada lima pilihan theme yang bisa kita install dan bahkan bisa kita kostumisasi karena semua theme tersebut bersifat kode terbuka dan bebas.
+
+![Jekyll Bootstrap](/img/Hello-World.png)
+
+Jadi! Buat teman-teman pengguna Linux! Tunggu apa lagi? [Move your blog to Jekyll](https://github.com/mojombo/jekyll/wiki/blog-migrations) dan kalian akan merasakan sensasinya. __&#x3C0;__

@@ -1,0 +1,20 @@
+---
+layout: page
+title: About
+---
+
+<h1 id="fittext">{{ page.title }}</h1>
+
+Hi! Aku Padly Rahman, 32 tahun, ber-domisili di Surabaya, Indonesia. Tidak banyak yang bisa aku ceritakan mengenai diriku. Aku hanya seorang yang sangat suka mencoba sesuatu hanya untuk sekedar mengerti, tidak lebih. Aku juga sangat anti terhadap yang namanya &ldquo;State Terror&rdquo; seperti yang dilakukan oleh Densus 88 dan SatPol PP. Selebihnya, &ldquo;nothing special&rdquo; kata orang Inggris.
+
+![me...me...me...](/img/ohmeposter.jpg)
+
+##Tentang blog
+
+Blog ini aku bikin sebagai tempatku untuk mencoba berkreasi, menggunakan [Jekyll](http://jekyllrb.com/) dan [Github](http://github.com) sebagai layanan generator-nya serta domain gratis dari [Dot TK](http://my.dot.tk/cgi-bin/amb/landing.dottk?nr=470419::8974610::1). Untuk typeface, aku menggunakan FertigoPro Reguler sebagai body typeface dan Nixie One Reguler untuk heading. Aku juga menggunakan script keybord navigation agar lebih mudah berpindah ke halaman sebelum/berikutnya &#8212;gunakan panah kanan/kiri pada papan ketik&#8212;.
+
+Sebelumnya blog ini banyak terinspirasi dari designer manca negara seperti Dustin Curtis, Jason Santa Maria dan Trent Walton, aku tertarik dengan konsep custom post yang mereka terapkan, tapi sekarang sudah aku rombak habis. Kedepan... mungkin aku akan tetap mencoba untuk mengkostumnya di beberapa artikel. Oh iya! Selain untuk berkreasi, Aku juga membikin blog ini sebagai tempat untuk mempelajari HTML dan CSS &#8212;jadi... maafkan aku kalau mungkin ada beberapa tampilan yang tidak sempurna di browser teman-teman&#8212;.
+
+Mungkin itu saja yang bisa aku paparkan mengenai blog ini. Kalau ada sesuatu hal yang mungkin teman-teman ingin sampaikan, kalian bisa menghubungiku via [surel](mailto:padly.rahman@gmail.com) atau ikuti aku di [@padlyrahman](http://twitter.com/padlyrahman)
+
+Salam... __&#x3C0;__

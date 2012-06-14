@@ -1,0 +1,29 @@
+  <h1>{{ post.title }}</h1>
+
+  <p class="date"><time datetime="{{ post.date | date_to_xmlschema }}"><a id="westp" href="{{ post.url }}/" title="Permanent link to &ldquo;{{ post.title }}&rdquo; and post your comment">&mdash; {{ post.date | date:'%Y, %d %b' }}&nbsp; &nbsp;</a></time></p>
+    {% if single_post %}
+      {{ content }}
+
+<h3>Tweet this <a href="http://twitter.com/home?status=http://padlyrahman.tk{{ post.url }}/">post</a> for display your thoughts...</h3>
+  
+    <div class="my-trackbacks"></div>
+
+
+<nav id="pagination">
+	{% if page.previous %}
+		<a id="west" class="previous" href="{{ page.previous.url }}" title="You can use &larr; (left arrow) on keyboard to go to previous post">&larr; Previous&nbsp; &nbsp;</a>
+{% else %}
+<span class="old">&larr; Previous</span>
+	{% endif %}
+
+	{% if page.next %}
+		<a id="east" class="next" href="{{ page.next.url }}" title="You can use &rarr; (right arrow) on keyboard to go to next post">&nbsp; &nbsp;Next &rarr;</a>
+{% else %}
+<span class="new">Next &rarr;</span>
+	{% endif %}
+</nav>
+
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+

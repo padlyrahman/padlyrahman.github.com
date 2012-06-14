@@ -1,0 +1,10 @@
+# Jekyll config
+permalink: /:year/:month/:day/:title
+pygments: true
+paginate: 1
+markdown: rdiscount
+
+# site-wide variables
+name: The other side of {me...}
+url: http://padlyrahman.tk
+

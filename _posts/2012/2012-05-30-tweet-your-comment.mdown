@@ -1,0 +1,10 @@
+---
+title: Tweet Your Comment
+layout: blog
+---
+
+![moretechtips.net](/img/twitter-trackbacks.jpg)
+
+Berawal dari mengunjungi [cognition.happycog.com](http://cognition.happycog.com/) yang menggunakan twitter app sebagai form komentar, aku pun jadi tertarik &mdash;tapi aku tidak mengerti bagaimana dia membuat aplikasi tersebut di developers twitter. Sebelumnya [Ardianzzz](http://ardianzzz.heroku.com) juga sempat menggunakan ini, tapi sekali lagi aku tidak tahu aplikasi apa yang dia pakai.
+
+Dan setelah mencari, aku menemukan [twitter trackback](http://www.moretechtips.net/2009/11/twitter-trackbacks-widget-jquery-plugin.html) yang bisa memanggil link url yang kita _mention_, dan dengan sedikit sentuhan css &mdash;meskipun hanya tersisa 120 karakter&mdash; twitter trackback bisa menjadi form komentar yang sangat powerful sebagai alternatif pilihan form komentar pihak ketiga lainnya seperti Disqus dll. __&#x3C0;__

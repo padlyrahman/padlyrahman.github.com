@@ -1,0 +1,46 @@
+---
+title: Install ReText di Joli OS
+layout: blog
+---
+
+ReText adalah sebuah text editor untuk [markdown](http://daringfireball.net/projects/markdown/syntax) syntax yang bisa kita gunakan mengonversi file berekstensi <code>.md</code>, <code>.mdown</code>, ataupun <code>.markdown</code> menjadi file HTML. Dan tentu saja sangat berguna bagi kita yang menulis dokumen dengan file tersebut.
+
+![ReText](/img/retext.png)
+
+Untuk memasangnya di Ubuntu 10.10 ke atas cukup tambahkan perintah ini di terminal...
+
+{% highlight css %}
+$ sudo add-apt-repository ppa:mitya57
+$ sudo apt-get update
+$ sudo apt-get install retext
+{% endhighlight %}
+
+Tapi karena aku memakai Joli OS &mdash;yang masih berbasis ubuntu 10.04&mdash; aku harus menggunakan cara manual...
+
+{% highlight css %}
+$ sudo gedit /etc/apt/sources.list
+{% endhighlight %}
+
+Lantas menambahkan <code>ppa:mitya57</code> pada jendela Gedit yang terbuka dan simpan...
+
+{% highlight css %}
+deb http://ppa.launchpad.net/mitya57/ppa/ubuntu lucid main 
+deb-src http://ppa.launchpad.net/mitya57/ppa/ubuntu lucid main 
+{% endhighlight %}
+ 
+Tambahkan signing key pada terminal
+
+{% highlight css %}
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB999287
+{% endhighlight %}
+
+Selanjutnya...
+
+{% highlight css %}
+$ sudo apt-get update
+$ sudo apt-get install retext
+{% endhighlight %}
+
+Done!
+
+Untuk distribusi Linux lainnya, dapatkan ReText via [SourceForge](http://sourceforge.net/projects/retext/files/). __&#x3C0;__
