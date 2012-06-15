@@ -8,8 +8,3 @@ title: Archives
       <div class="list"><a href="{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></div>
     {% endfor %}
 
-<h2>My Blogazine<h2>
-	{% for post in site.posts %}
-	<div class="list"><a href="/beta{{ post.url }}">{{ post.title }}</a> <span>{{ post.date | date_to_string }}</span></div>
-	{% endfor %}
-
