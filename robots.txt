@@ -1,4 +1,4 @@
-Sitemap: http://padlyrahman.tk/sitemap.xml
+Sitemap: http://padlyrahman.github.com/sitemap.xml
 User-agent: *
 Disallow: /index.html
 Disallow: atom.xml
