@@ -6,5 +6,3 @@ description: null
 layout: post
 ---
 Bisakah posting via Android? Kita lihat hasilnya... :)
-
-Tapi gimana mau posting image ya?
